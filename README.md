@@ -2,6 +2,9 @@
 
 A responsive portfolio website built with HTML, CSS, and vanilla JavaScript.
 
+# Live site
+View the portfolio [here](connorvu.github.io)
+
 ## Run locally
 
 Open `index.html` in a browser, or serve this folder with a local development server.

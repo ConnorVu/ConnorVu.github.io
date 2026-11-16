@@ -12,6 +12,7 @@ Open `index.html` in a browser, or serve this folder with a local development se
 ## Pages
 
 - `index.html` — homepage, about, selected work, skills, and contact
+- `ui-ux-research-design.html` — UX research and UI design case study (CreativeBaseStation)
 - `digital-art-design.html` — Digital Art & Design
 - `3d-models.html` — 3D Models
 - `interactive-media.html` — Interactive Media
@@ -20,6 +21,7 @@ Open `index.html` in a browser, or serve this folder with a local development se
 ## Assets and styling
 
 - `assets/projects/` — project imagery used throughout the site
+- `assets/case-studies/creativebasestation-case-study.pdf` — full CreativeBaseStation case study
 - `style.css` — layout, responsive styling, and visual system
 - `script.js` — navigation and interaction behavior
 

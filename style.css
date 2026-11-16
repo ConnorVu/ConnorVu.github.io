@@ -1538,3 +1538,95 @@ button:focus-visible {
   .skills-layout { gap: 2rem; }
   .skills .skill { grid-template-columns: 2.25rem minmax(0, 1fr); }
 }
+
+
+/* UI/UX research and design case study */
+.ux-page { background: var(--bg); }
+.ux-hero { padding-top: 9rem; padding-bottom: 4rem; }
+.ux-hero h1 { max-width: 68rem; font-size: clamp(3.5rem, 9vw, 7.8rem); }
+.ux-hero .project-lede { max-width: 42rem; }
+.ux-hero-panel {
+  position: relative; display: grid; grid-template-columns: minmax(12rem, .8fr) 1.2fr auto;
+  align-items: center; gap: clamp(1.5rem, 5vw, 5rem); margin-top: 3.5rem;
+  padding: clamp(1.5rem, 5vw, 4rem); min-height: 19rem; overflow: hidden;
+  color: #fff; background: #1e1726; border-radius: .65rem;
+}
+.ux-hero-panel h2 { font-size: clamp(2rem, 4vw, 3.5rem); margin-bottom: .8rem; }
+.ux-hero-panel p:not(.eyebrow) { max-width: 35rem; color: #d0c8d7; margin: 0; }
+.ux-hero-panel .eyebrow { color: #bdb0ca; }
+.ux-hero-index { align-self: end; font: .65rem/1.6 "DM Mono",monospace; letter-spacing: .1em; color: #3ff2b4; }
+.ux-hero-mark { position: relative; display: grid; place-content: center; min-height: 11rem; color: #1e1726; background: #3ff2b4; border-radius: 50%; transform: rotate(-8deg); }
+.ux-hero-mark span { z-index: 1; font-size: clamp(2.6rem, 6vw, 5rem); font-weight: 800; letter-spacing: -.12em; }
+.ux-hero-mark i { position: absolute; inset: 1rem -1rem; border: 1px solid #b18be8; border-radius: 50%; transform: rotate(35deg); }
+.ux-hero-mark i:nth-of-type(2) { transform: rotate(-35deg); }
+.ux-hero-mark i:nth-of-type(3) { inset: 2rem -2rem; border-color: #fff; transform: rotate(75deg); }
+.ux-overview { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 7vw, 7rem); padding-block: 5rem 7rem; }
+.ux-overview h2 { max-width: 38rem; font-size: clamp(2.3rem, 4.5vw, 4.4rem); line-height: 1.02; }
+.ux-overview-copy { padding-top: 1.2rem; color: var(--muted); }
+.ux-overview-copy > p:first-child { margin-top: 0; }
+.ux-meta { font: .7rem "DM Mono",monospace; text-transform: uppercase; letter-spacing: .06em; color: var(--ink); }
+.ux-facts { display: grid; gap: 0; margin-top: 2rem; border-top: 1px solid var(--line); }
+.ux-facts div { display: grid; grid-template-columns: 7rem 1fr; gap: 1rem; padding: .85rem 0; border-bottom: 1px solid var(--line); }
+.ux-facts span,.ux-research-grid article > span,.ux-deliver-grid article > span { font: .63rem "DM Mono",monospace; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.ux-facts strong { font-size: .88rem; font-weight: 600; color: var(--ink); }
+.ux-section { background: var(--surface); }
+.ux-research-grid,.ux-deliver-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1rem; }
+.ux-research-grid article,.ux-deliver-grid article { padding: 1.6rem; border: 1px solid var(--line); border-radius: .5rem; background: var(--bg); }
+.ux-research-grid h3,.ux-deliver-grid h3 { margin: 1.5rem 0 .5rem; font-size: 1.25rem; letter-spacing: -.04em; }
+.ux-research-grid p,.ux-deliver-grid p { margin: 0; color: var(--muted); font-size: .9rem; }
+.ux-quote { margin: 3rem 0 0; padding: 2rem 0 0; border-top: 1px solid var(--line); font-size: clamp(1.8rem, 3.4vw, 3.2rem); line-height: 1.15; letter-spacing: -.04em; }
+.ux-quote span { display: block; margin-top: 1rem; font: .65rem "DM Mono",monospace; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.ux-dark { background: #1e1726; color: #fff; }
+.ux-dark .eyebrow,.ux-dark .section-intro { color: #bdb0ca; }
+.ux-principles { border-top: 1px solid #51465a; }
+.ux-principles article { display: grid; grid-template-columns: 4rem 1fr; gap: 1.5rem; padding: 1.5rem 0; border-bottom: 1px solid #51465a; }
+.ux-principles article > span { color: #3ff2b4; font: .7rem "DM Mono",monospace; padding-top: .35rem; }
+.ux-principles h3 { margin: 0 0 .35rem; font-size: clamp(1.25rem, 2.2vw, 1.8rem); }
+.ux-principles p { margin: 0; color: #c9c1d0; }
+.ux-feature-list { border-top: 1px solid var(--line); }
+.ux-feature-list article { display: grid; grid-template-columns: 4rem 1fr; gap: 1.5rem; padding: 1.35rem 0; border-bottom: 1px solid var(--line); }
+.ux-feature-list article > span { font: .68rem "DM Mono",monospace; color: var(--accent); padding-top: .25rem; }
+.ux-feature-list h3 { margin: 0 0 .3rem; font-size: 1.25rem; }
+.ux-feature-list p { margin: 0; color: var(--muted); }
+.ux-brand { background: #e5e2da; }
+.ux-swatches { display: grid; grid-template-columns: repeat(4,1fr); gap: .8rem; }
+.ux-swatches > div { display: grid; gap: .6rem; }
+.ux-swatches span { display: block; aspect-ratio: 1.8; border-radius: .4rem; background: var(--swatch); border: 1px solid rgba(0,0,0,.08); }
+.ux-swatches div:nth-child(1) { --swatch: #3ff2b4; }
+.ux-swatches div:nth-child(2) { --swatch: #1e1726; }
+.ux-swatches div:nth-child(3) { --swatch: #7046a5; }
+.ux-swatches div:nth-child(4) { --swatch: #fff; }
+.ux-swatches strong { font-size: .9rem; }
+.ux-swatches code { color: var(--muted); font: .7rem "DM Mono",monospace; }
+.ux-brand-note { max-width: 42rem; margin-top: 2rem; color: var(--muted); }
+.ux-deliver-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.ux-pdf-panel { display: grid; grid-template-columns: minmax(15rem,.75fr) 1.25fr; gap: 2rem; margin-top: 4rem; padding: clamp(1.25rem,3vw,2.5rem); border: 1px solid var(--line); border-radius: .6rem; background: var(--bg); }
+.ux-pdf-panel h3 { margin: 0 0 .8rem; font-size: 1.6rem; }
+.ux-pdf-panel p:not(.eyebrow) { color: var(--muted); font-size: .9rem; }
+.ux-pdf-frame { min-height: 28rem; background: #d8d5cc; }
+.ux-pdf-frame iframe { display: block; width: 100%; height: 100%; min-height: 28rem; border: 0; }
+.ux-download { display: inline-block; margin: 1rem 0 0 1rem; font: .67rem "DM Mono",monospace; text-transform: uppercase; }
+.ux-umd-links { background: var(--dark); color: #fff; }
+.ux-umd-links .eyebrow,.ux-umd-links .section-intro { color: var(--dark-muted); }
+.ux-umd-links h2 { margin-bottom: 1rem; }
+.ux-link-row { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }
+.ux-link-row .button.secondary { border-color: #aaa; color: #fff; }
+.ux-link-row .button.secondary:hover { color: var(--ink); }
+.ux-link-note { color: var(--dark-muted); font-size: .8rem; margin-top: 1.5rem; }
+.ux-card-visual { display: grid; place-items: center; background: #1e1726 !important; }
+.ux-card-art { position: relative; display: grid; align-content: center; width: 65%; height: 72%; padding: 1rem; color: #1e1726; background: #3ff2b4; transform: rotate(-3deg); }
+.ux-card-art span { font: .6rem "DM Mono",monospace; text-transform: uppercase; }
+.ux-card-art strong { font-size: clamp(1.5rem,4vw,3rem); line-height: .82; letter-spacing: -.09em; }
+.ux-card-art i { position: absolute; inset: -1rem; border: 1px solid #b18be8; transform: rotate(7deg); }
+@media(max-width:48rem) {
+  .ux-hero { padding-top: 7rem; }
+  .ux-hero-panel,.ux-overview,.ux-pdf-panel { grid-template-columns: 1fr; }
+  .ux-hero-mark { width: min(15rem,70%); min-height: 9rem; }
+  .ux-hero-index { position: absolute; right: 1.5rem; bottom: 1.5rem; }
+  .ux-overview { padding-block: 3rem 4rem; }
+  .ux-research-grid,.ux-deliver-grid { grid-template-columns: 1fr; }
+  .ux-swatches { grid-template-columns: repeat(2,1fr); }
+  .ux-pdf-frame,.ux-pdf-frame iframe { min-height: 70vh; }
+  .ux-link-row { flex-direction: column; align-items: stretch; }
+  .ux-download { margin-left: 0; display: block; }
+}
